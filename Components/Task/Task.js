@@ -1,6 +1,6 @@
-import React{ Components, PropTypes } from 'react';
+import React, { Component, PropTypes } from 'react';
 
-export default class Task extends Components {
+export default class Task extends Component {
     static propTypes = {
         name: PropTypes.string
     }
