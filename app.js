@@ -1,3 +1,6 @@
-const printName = str => { alert(`Hello ${str}`)}
+import { render } from 'react-dom';
+import Task from './src/components/Task/Task';
 
-printName('World');
+const appEl = document.querySelector('#app');
+
+render(TaskItem, appEl);

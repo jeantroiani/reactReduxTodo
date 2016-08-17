@@ -44,13 +44,12 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	'use strict';
+	import { render } from 'react-dom';
+	import Task from './src/components/Task/Task';
 
-	var printName = function printName(str) {
-	  alert('Hello ' + str);
-	};
+	const appEl = document.querySelector('#app');
 
-	printName('World');
+	render(TaskItem, appEl);
 
 /***/ }
 /******/ ]);
